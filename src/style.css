@@ -1,4 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+}
+
+.input-width {
+  width: 60%;
+}
+
+.score {
+  width: 80%;
+}
+
+.head-title {
+  font-size: 80px;
 }
