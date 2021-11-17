@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leader Board</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero is-info is-large">
+        <div class="hero-head">
+          <div class="container has-text-centered">
+            <h1 class="title head-title">Leader Board</h1>
+          </div>
+        </div>
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column">
+                <div class="row">
+                  <div class="columns score">
+                    <div class="column"><p class="title">Recent Scores</p></div>
+                    <div class="column">
+                      <button class="button is-success" type="button">
+                        Refresh
+                      </button>
+                    </div>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Uzair Ali</th>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <th>Basit Ali</th>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <th>Saad Qureshi</th>
+                        <td>-2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <form class="column">
+                <p class="title has-text-white">Add Your Score</p>
+                <div class="field">
+                  <div class="control">
+                    <input
+                      class="input-width input"
+                      type="text"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <input
+                      class="input-width input"
+                      type="text"
+                      placeholder="Your Score"
+                    />
+                  </div>
+                </div>
+                <div class="field is-grouped is-align-content-center">
+                  <div class="control">
+                    <button class="button is-link" type="button">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Leader Board</strong> by
+          <a href="https://github.com/uzairali19">Uzair Ali</a>.
+        </p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
