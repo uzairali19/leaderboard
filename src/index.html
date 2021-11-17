@@ -11,42 +11,45 @@
       <section class="hero is-info is-large">
         <div class="hero-head">
           <div class="container has-text-centered">
-            <p class="title head-title">Leader Board</p>
+            <h1 class="title head-title">Leader Board</h1>
           </div>
         </div>
         <div class="hero-body">
           <div class="container">
             <div class="columns">
               <div class="column">
-                <table class="table row">
+                <div class="row">
                   <div class="columns score">
                     <div class="column"><p class="title">Recent Scores</p></div>
                     <div class="column">
-                      <button class="button is-success">Refresh</button>
+                      <button class="button is-success" type="button">
+                        Refresh
+                      </button>
                     </div>
                   </div>
-
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Score</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>Uzair Ali</th>
-                      <td>12</td>
-                    </tr>
-                    <tr>
-                      <th>Basit Ali</th>
-                      <td>10</td>
-                    </tr>
-                    <tr>
-                      <th>Saad Qureshi</th>
-                      <td>-2</td>
-                    </tr>
-                  </tbody>
-                </table>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Uzair Ali</th>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <th>Basit Ali</th>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <th>Saad Qureshi</th>
+                        <td>-2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
 
               <form class="column">
@@ -71,7 +74,7 @@
                 </div>
                 <div class="field is-grouped is-align-content-center">
                   <div class="control">
-                    <button class="button is-link">Submit</button>
+                    <button class="button is-link" type="button">Submit</button>
                   </div>
                 </div>
               </form>
