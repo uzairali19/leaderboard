@@ -22,9 +22,7 @@
                   <div class="columns score">
                     <div class="column"><p class="title">Recent Scores</p></div>
                     <div class="column">
-                      <button class="button is-success" type="button">
-                        Refresh
-                      </button>
+                      <button class="button is-success" type="button" id="refresh">Refresh</button>
                     </div>
                   </div>
                   <table class="table">
@@ -38,12 +36,12 @@
                   </table>
                 </div>
               </div>
-
-              <form class="column">
+              <form class="column" id="form">
                 <p class="title has-text-white">Add Your Score</p>
                 <div class="field">
                   <div class="control">
                     <input
+                      id="name"
                       class="input-width input"
                       type="text"
                       placeholder="Your Name"
@@ -53,15 +51,16 @@
                 <div class="field">
                   <div class="control">
                     <input
+                      id="score"
                       class="input-width input"
-                      type="text"
+                      type="number"
                       placeholder="Your Score"
                     />
                   </div>
                 </div>
                 <div class="field is-grouped is-align-content-center">
                   <div class="control">
-                    <button class="button is-link" type="button">Submit</button>
+                    <button class="button is-link" type="button" id="submit">Submit</button>
                   </div>
                 </div>
               </form>
@@ -73,8 +72,7 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Leader Board</strong> by
-          <a href="https://github.com/uzairali19">Uzair Ali</a>.
+          <strong>Leader Board</strong> by <a href="https://github.com/uzairali19">Uzair Ali</a>.
         </p>
       </div>
     </footer>
